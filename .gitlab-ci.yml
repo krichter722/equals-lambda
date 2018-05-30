@@ -1,0 +1,7 @@
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+main:
+    image: maven:3.5.2-jdk-8-slim
+    script:
+        - mvn --batch-mode install
