@@ -47,7 +47,7 @@ public class EqualsLambda {
     }
 
     /**
-     * Checks that all elements in {@code a} are contained in {@code b}.
+     * Checks that all elements in {@code a} are contained in {@code b} and vice versa.
      *
      * @param <T> allows to restrict the type of arguments to compare
      * @param a the first set
@@ -75,7 +75,7 @@ public class EqualsLambda {
 
     /**
      * Checks that all elements in {@code a} are contained in {@code b} at the
-     * same position.
+     * same position and vice versa.
      *
      * @param <T> allows to restrict the type of arguments to compare
      * @param a the first list
@@ -110,7 +110,7 @@ public class EqualsLambda {
 
     /**
      * Checks that all mappings between key and value in {@code a} are contained
-     * in {@code b}.
+     * in {@code b} and vice versa.
      *
      * @param <K> allows to restrict the type of keys in both maps
      * @param <V> allows to restrict the type of values in both maps
