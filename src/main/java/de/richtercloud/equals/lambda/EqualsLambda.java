@@ -101,7 +101,7 @@ public class EqualsLambda {
         while(aItr.hasNext()) {
             T aNxt = aItr.next();
             T bNxt = bItr.next();
-            if(!equalsCheck.equals(aNxt, bNxt)) {
+            if(!equals(aNxt, bNxt, equalsCheck)) {
                 return false;
             }
         }
@@ -143,7 +143,7 @@ public class EqualsLambda {
             return false;
         }
         for(K key : a.keySet()) {
-            if(!equalsCheckValue.equals(a.get(key), b.get(key))) {
+            if(!equals(a.get(key), b.get(key), equalsCheckValue)) {
                 return false;
             }
         }
