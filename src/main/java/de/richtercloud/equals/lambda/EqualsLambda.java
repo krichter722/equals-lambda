@@ -120,7 +120,7 @@ public class EqualsLambda {
      * @param equalsCheckValue the equality check to use for values
      * @return {@code true} if the key set of {@code a} and {@code b} is equals
      * as defined by
-     * {@link #equalsSet(java.util.Set, java.util.Set, richtercloud.project1.jar.controller.EqualsCheck) }
+     * {@link #equalsSet(java.util.Set, java.util.Set, de.richtercloud.equals.lambda.EqualsCheck) }
      * and all keys in {@code a} are mapped to the same values as they are in
      * {@code b}, {@code false} otherwise
      */

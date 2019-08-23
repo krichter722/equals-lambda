@@ -17,7 +17,7 @@ package de.richtercloud.equals.lambda;
 
 /**
  * Used by
- * {@link EqualsLambda#equals(java.lang.Object, java.lang.Object, richtercloud.project1.jar.controller.EqualsCheck) }.
+ * {@link EqualsLambda#equals(java.lang.Object, java.lang.Object, de.richtercloud.equals.lambda.EqualsCheck) }.
  *
  * @author richter
  * @param <T> the type to compare for equality
